@@ -1,0 +1,65 @@
+body {
+	      font-family: Arial, sans-serif;    
+      background-color: pink;
+      text-align: center; 
+      margin: 0;    
+}
+
+.titre-principal {
+	background-color: red;
+	color : yellow;
+	font-weight: bold;
+	font-size: 30px;
+	border: 5px solid green;
+	width: 55%;
+	height: 170px;
+	margin-left: 20%;
+	text-align: left;
+    padding-left: 0;
+}
+
+/* Style commun aux trois blocs */
+.bloc {
+    width: 88%;
+    height: 160px;
+    border: 1px solid red;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Style du premier et troisième paragraphe */
+.texte1 {
+    color: black;
+    font-size: 26px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style du deuxième paragraphe */
+.texte2 {
+    background-color: yellow;
+    color: black;
+    font-size: 26px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+/* Espacement et décalage des trois blocs */
+.bloc {
+    margin-bottom: 17px;
+    margin-left: 60px;
+}
+
+/* Pour mieux placer le retour au maquettes */
+.retour {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+}

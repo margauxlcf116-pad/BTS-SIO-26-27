@@ -1,0 +1,49 @@
+body {
+	      font-family: Arial,;    
+      background-color: pink;
+      margin: 0;    
+}
+
+.bloc1-titre {
+    background-color: red;
+    color : yellow; 
+    font-weight: bold;
+    font-size: 35px;
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+
+.bloc2-texte {
+    background-color: red;
+    color: yellow;
+    font-size: 30px;
+    width: 400px;
+    height: 400px;
+    float: left;
+      margin-left: calc(100% - 800px);
+}
+
+.bloc3-image {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    clear: both;
+    margin-top: 20px;
+}
+
+/* Pour avoir une bande rouge visible à droite */
+.bloc3-image img {
+    width: 380px;
+}
+
+/* Pour mieux placer le retour au maquettes */
+.retour {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+}
