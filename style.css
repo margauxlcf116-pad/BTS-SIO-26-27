@@ -1,0 +1,84 @@
+
+/* Réinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fond de la page */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #e9ddff, #f8f1ff, #ded0ff);
+    min-height: 100vh;
+    padding: 50px 20px;
+}
+
+/* Titre */
+h1 {
+    text-align: center;
+    color: #7251a8;
+    font-size: 34px;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+}
+
+/* Liste des projets */
+ul {
+    list-style: none;
+    max-width: 650px;
+    margin: auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(130, 90, 180, 0.15);
+}
+
+/* Espacement */
+li {
+    margin-bottom: 13px;
+}
+
+/* Boutons des projets */
+li a {
+    display: block;
+    text-decoration: none;
+    color: #70549b;
+    background-color: #f5efff;
+    padding: 16px 22px;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid #e8dcfa;
+    transition: 0.3s ease;
+}
+
+/* Survol des boutons */
+li a:hover {
+    background-color: #cbb3f2;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(130, 90, 180, 0.2);
+    border-color: #cbb3f2;
+}
+
+/* Dernier élément */
+li:last-child {
+    margin-bottom: 0;
+}
+
+/* Adaptation mobile */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    ul {
+        padding: 18px;
+    }
+
+    li a {
+        font-size: 15px;
+        padding: 14px;
+    }
+}
